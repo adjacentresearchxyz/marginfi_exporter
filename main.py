@@ -20,7 +20,7 @@ setup_logging(logging.INFO)
 rpc_endpoint = os.getenv("RPC_ENDPOINT")
 environment = os.getenv("ENV")
 marginfi_account = os.getenv("MARGINFI_ACCOUNT")
-prometheus_endpoint = 9000
+prometheus_endpoint = 9003
 
 logging.basicConfig(
     level=logging.INFO,
